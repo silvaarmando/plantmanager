@@ -1,57 +1,56 @@
-import
-	React,
-	{
-		useState
-	}
-from 'react';
+import React from 'react';
 import {
 	SafeAreaView,
 	Text,
 	TouchableOpacity,
 	StyleSheet,
-	Image
+	Image,
+	Dimensions,
+	View
 } from 'react-native';
+import { Feather } from '@expo/vector-icons';
 
-import wateringImg from '../assets/watering.png'
-import { Button } from '../components/Button';
+import wateringImg from '../assets/watering.png';
 import colors from '../styles/colors';
+import fonts from '../styles/fonts';
 
 export function Welcome() {
-	const [ visible, setVisible ] = useState(false);
-
-	function handleVisibility() {
-		setVisible(true)
-	}
 	return (
 		<SafeAreaView 
 			style={styles.container}
 		>
-			<Text 
-				style={styles.title}
-			>
-				Gerencie {'\n'}
-				suas plantas {'\n'}
-				de forma fácil {'\n'}
-			</Text>
+			<View style={styles.wrapper}>
+				<Text 
+					style={styles.title}
+				>
+					Gerencie {'\n'}
+					suas plantas de {'\n'}
+					forma fácil {'\n'}
+				</Text>
 
-			{
-				visible &&
-				<Image
-					style={styles.image}
-					source={wateringImg}
+					<Image
+						style={styles.image}
+						source={wateringImg}
+						resizeMode="contain"
+					/>
+
+				<Text 
+					style={styles.subtitle}
+				>
+					Não esqueça mais de regar suas plantas. Nós cuidamos de lembrar você sempre que precisar
+				</Text>
+
+				<TouchableOpacity
+					style={styles.button}
+					activeOpacity={0.7}
+				>
+
+				<Feather
+					name="chevron-right"
+					style={styles.buttonIcon}
 				/>
-			}
-
-			<Text 
-				style={styles.subtitle}
-			>
-				Não esqueça mais de regar suas plantas. Nós cuidamos de lembrar você sempre que precisar
-			</Text>
-
-			<Button
-				title="&gt;"
-				onPress={handleVisibility}
-			/>
+				</TouchableOpacity>
+			</View>
 		</SafeAreaView>
 	)
 }
@@ -59,16 +58,23 @@ export function Welcome() {
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
+	},
+
+	wrapper: {
+		flex: 1,
 		alignItems: 'center',
-		justifyContent: 'space-between',
+		justifyContent: 'space-around',
+		paddingHorizontal: 20
 	},
 
 	title: {
-		fontSize: 32,
+		fontSize: 28,
 		fontWeight: 'bold',
 		textAlign: 'center',
 		color: colors.heading,
-		marginTop: 62,
+		marginTop: 38,
+		fontFamily: fonts.heading,
+		lineHeight: 34
 	},
 
 	subtitle: {
@@ -76,29 +82,28 @@ const styles = StyleSheet.create({
 		fontSize: 18,
 		paddingHorizontal: 20,
 		color: colors.heading,
-		marginTop: 52,
+		fontFamily: fonts.text
 	},
 
+	image: {
+		height: Dimensions
+			.get('window')
+			.width * 0.7,
+		marginTop: -18
+	},
+	
 	button: {
 		backgroundColor: colors.green,
 		justifyContent: 'center',
 		alignItems: 'center',
 		borderRadius: 16,
-		marginTop: 70,
-		marginBottom: 10,
-		padding: 10,
+		marginBottom: 20,
 		width: 56,
 		height: 56,
 	},
 
-	image: {
-		width: 295,
-		height: 284,
-		marginTop: 10
-	},
-
-	buttonText: {
+	buttonIcon: {
 		color: colors.white,
-		fontSize: 24
+		fontSize: 32
 	}
 })
