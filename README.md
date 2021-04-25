@@ -86,7 +86,9 @@
 
 ### Tecnologias
 
-<center>
+<center
+  align="center"
+>
   <a
     href="https://code.visualstudio.com/"
   >
@@ -119,6 +121,14 @@
       src="./readmeScreens/expo.svg"
     >
   </a>&nbsp;
+    <a
+    href="https://expo.io/"
+  >
+    <img
+      width="50px"
+      src="./readmeScreens/yarn.svg"
+    >
+  </a>
 </center>
 
 ### Sobre mim
