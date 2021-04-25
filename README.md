@@ -103,6 +103,7 @@
   align="center"
 >
   <a
+    target="_blank"
     href="https://code.visualstudio.com/"
   >
     <img
@@ -111,6 +112,7 @@
     >
   </a>&nbsp;
   <a
+    target="_blank"
     href="https://reactnative.dev/"
   >
     <img
@@ -119,6 +121,7 @@
     >
   </a>&nbsp;
   <a
+    target="_blank"
     href="https://www.typescriptlang.org/"
   >
     <img
@@ -127,6 +130,7 @@
     >
   </a>&nbsp;
   <a
+    target="_blank"
     href="https://expo.io/"
   >
     <img
@@ -135,6 +139,7 @@
     >
   </a>&nbsp;
   <a
+    target="_blank"
     href="https://yarnpkg.com/"
   >
     <img
@@ -143,6 +148,7 @@
     >
   </a>&nbsp;
   <a
+    target="_blank"
     href="https://reactnavigation.org/"
   >
     <img
@@ -151,6 +157,7 @@
     >
   </a>&nbsp;
   <a
+    target="_blank"
     href="https://fonts.google.com/"
   >
     <img
@@ -159,6 +166,7 @@
     >
   </a>&nbsp;
   <a
+    target="_blank"
     href="https://feathericons.com/"
   >
     <img
