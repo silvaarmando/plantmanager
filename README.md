@@ -7,7 +7,7 @@
   >
 </h1>
 
-### PlantManager é uma aplicação criada em React Native na 5ª edição do bootCamp da Rocketseat, Never Level Week, e tem como objetivo ajudar a cuidar melhor da nossas plantinhas em casa.
+### PlantManager é uma aplicação criada em React Native na 5ª edição do bootcamp da [Rocketseat](https://rocketseat.com.br/), Next Level Week, com o instrutor [Rodrigo Gonçalves](https://github.com/rodrigorgtic) e tem como objetivo ajudar a cuidar melhor da nossas plantinhas em casa.
 
 <br
 />
@@ -51,10 +51,12 @@
   >
 </h1>
 
-### Contruindo o projeto
+### Construindo o projeto
 
 <br
 />
+
+#### Roteiro das Aulas da Rocketseat
 
 #### Aula 1 - Liftoff
 
@@ -66,6 +68,17 @@
 - Criando o projeto React Native com TypeScript.
 - Conceitos Importantes sobre: Componentes, Propriedades e Estados.
 - Splash Screen e Tela de Welcome.
+
+#### Aula 2 - Maximum Speed
+
+- Refatorar o que fizemos na aula passada.
+- Melhorar o Design com ícones da Vector Icons.
+- Melhorar o Design com fonts externas do Google Fonts.
+- Criando um arquivo de estilos para fontes.
+- Tela para Identificação de Usuário.
+- Melhorando a tela de confirmação da identificação do usuário com dicas de UX.
+- Tela de confirmação.
+- Definindo a navegação entre telas com Stack Navigator.
 
 <br
 />
@@ -130,6 +143,9 @@
     >
   </a>
 </center>
+
+<br
+/>
 
 ### Sobre mim
 
