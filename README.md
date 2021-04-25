@@ -119,6 +119,14 @@
     >
   </a>&nbsp;
   <a
+    href="https://reactnative.dev/docs/stylesheet"
+  >
+    <img
+      width="50px"
+      src="./readmeScreens/css.svg"
+    >
+  </a>&nbsp;
+  <a
     href="https://www.typescriptlang.org/"
   >
     <img
