@@ -130,16 +130,40 @@
     href="https://expo.io/"
   >
     <img
-      width="50px"
-      src="./readmeScreens/expo.svg"
+      width="112px"
+      src="./readmeScreens/expo.png"
     >
   </a>&nbsp;
-    <a
-    href="https://expo.io/"
+  <a
+    href="https://yarnpkg.com/"
   >
     <img
       width="50px"
       src="./readmeScreens/yarn.svg"
+    >
+  </a>&nbsp;
+  <a
+    href="https://reactnavigation.org/"
+  >
+    <img
+      width="50px"
+      src="./readmeScreens/react-navigation.svg"
+    >
+  </a>&nbsp;
+  <a
+    href="https://reactnavigation.org/"
+  >
+    <img
+      width="50px"
+      src="./readmeScreens/google-fonts.png"
+    >
+  </a>&nbsp;
+  <a
+    href="https://feathericons.com/"
+  >
+    <img
+      width="50px"
+      src="./readmeScreens/feather.svg"
     >
   </a>
 </center>
