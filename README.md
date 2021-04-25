@@ -151,7 +151,7 @@
     >
   </a>&nbsp;
   <a
-    href="https://reactnavigation.org/"
+    href="https://fonts.google.com/"
   >
     <img
       width="50px"
