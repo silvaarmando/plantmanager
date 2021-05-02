@@ -80,6 +80,15 @@
 - Tela de confirmação.
 - Definindo a navegação entre telas com Stack Navigator.
 
+#### Aula 3 - In Orbit
+
+- Tela para selecionar planta.
+- Consumindo API para carregar as plantas.
+- Lidando com SVG da API.
+- Utilizando animações Lottiefiles para deixar o Load a cara do App.
+- Filtrando plantas pelo ambiente.
+- Melhorando a experiência do usuário com paginação.
+
 <br
 />
 
@@ -102,87 +111,122 @@
 <center
   align="center"
 >
-  <a
-    target="_blank"
-    href="https://code.visualstudio.com/"
+  <p
+    align="center"
   >
-    <img
-      width="50px"
-      src="./readmeScreens/vscode.png"
+    <a
+      target="_blank"
+      href="https://code.visualstudio.com/"
     >
-  </a>&nbsp;
-  <a
-    target="_blank"
-    href="https://reactnative.dev/"
+      <img
+        width="50px"
+        src="./readmeScreens/vscode.png"
+      >
+    </a>&nbsp;
+    <a
+      target="_blank"
+      href="https://reactnative.dev/"
+    >
+      <img
+        width="50px"
+        src="./readmeScreens/react.svg"
+      >
+    </a>&nbsp;
+    <a
+      target="_blank"
+      href="https://reactnative.dev/docs/stylesheet"
+    >
+      <img
+        width="50px"
+        src="./readmeScreens/css.svg"
+      >
+    </a>&nbsp;
+    <a
+      target="_blank"
+      href="https://www.typescriptlang.org/"
+    >
+      <img
+        width="50px"
+        src="./readmeScreens/typescript.svg"
+      >
+    </a>&nbsp;
+    <a
+      target="_blank"
+      href="https://expo.io/"
+    >
+      <img
+        width="112px"
+        src="./readmeScreens/expo.png"
+      >
+    </a>&nbsp;
+    <a
+      target="_blank"
+      href="https://yarnpkg.com/"
+    >
+      <img
+        width="50px"
+        src="./readmeScreens/yarn.svg"
+      >
+    </a>&nbsp;
+    <a
+      target="_blank"
+      href="https://reactnavigation.org/"
+    >
+      <img
+        width="50px"
+        src="./readmeScreens/react-navigation.svg"
+      >
+    </a>&nbsp;
+    <a
+      target="_blank"
+      href="https://fonts.google.com/"
+    >
+      <img
+        width="50px"
+        src="./readmeScreens/google-fonts.png"
+      >
+    </a>&nbsp;
+    <a
+      target="_blank"
+      href="https://feathericons.com/"
+    >
+      <img
+        width="50px"
+        src="./readmeScreens/feather.svg"
+      >
+    </a>
+  </p>
+  <p
+    align="center"
   >
-    <img
-      width="50px"
-      src="./readmeScreens/react.svg"
+    <a
+      target="_blank"
+      href="https://axios-http.com/"
     >
-  </a>&nbsp;
-  <a
-    target="_blank"
-    href="https://reactnative.dev/docs/stylesheet"
-  >
-    <img
-      width="50px"
-      src="./readmeScreens/css.svg"
+      <img
+        width="150px"
+        src="./readmeScreens/axios.svg"
+      >
+    </a>&nbsp;
+    <a
+      target="_blank"
+      href="https://docs.expo.io/versions/latest/sdk/svg/"
     >
-  </a>&nbsp;
-  <a
-    target="_blank"
-    href="https://www.typescriptlang.org/"
-  >
-    <img
-      width="50px"
-      src="./readmeScreens/typescript.svg"
+      <img
+        width="50px"
+        src="./readmeScreens/svg.png"
+      >
+    </a>&nbsp;
+    <a
+      target="_blank"
+      href="https://github.com/lottie-react-native/lottie-react-native"
     >
-  </a>&nbsp;
-  <a
-    target="_blank"
-    href="https://expo.io/"
-  >
-    <img
-      width="112px"
-      src="./readmeScreens/expo.png"
-    >
-  </a>&nbsp;
-  <a
-    target="_blank"
-    href="https://yarnpkg.com/"
-  >
-    <img
-      width="50px"
-      src="./readmeScreens/yarn.svg"
-    >
-  </a>&nbsp;
-  <a
-    target="_blank"
-    href="https://reactnavigation.org/"
-  >
-    <img
-      width="50px"
-      src="./readmeScreens/react-navigation.svg"
-    >
-  </a>&nbsp;
-  <a
-    target="_blank"
-    href="https://fonts.google.com/"
-  >
-    <img
-      width="50px"
-      src="./readmeScreens/google-fonts.png"
-    >
-  </a>&nbsp;
-  <a
-    target="_blank"
-    href="https://feathericons.com/"
-  >
-    <img
-      width="50px"
-      src="./readmeScreens/feather.svg"
-    >
-  </a>
+      <img
+        width="50px"
+        src="./readmeScreens/lottie.png"
+      >
+    </a>
+  </p>
 </center>
 
 <br
