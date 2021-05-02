@@ -24,16 +24,16 @@ export function EnvironmentButton ({
   return (
     <RectButton
       style={[
-          styles.container,
-          active && styles.containerActive
-        ]}
+        styles.container,
+        active && styles.containerActive
+      ]}
       {...rest}
     >
       <Text
         style={[
-            styles.text,
-            active && styles.textActive,
-          ]}
+          styles.text,
+          active && styles.textActive,
+        ]}
       >
         { title }
       </Text>
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     height: 40,
     justifyContent: 'center',
     alignItems: 'center',
-    marginRight: 5,
+    marginHorizontal: 5,
     borderRadius: 12,
   },
 
