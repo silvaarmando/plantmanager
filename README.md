@@ -236,3 +236,6 @@
 
 <br
 />
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/francisco-s-4023a41a7/)
+[<img src="https://img.shields.io/github/followers/franciscoarmando63?label=follow&style=social" height="22" title="Follow me" />](https://github.com/franciscoarmando63)
+[![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:franciscoarmando636@gmail.com)
